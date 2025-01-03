@@ -9,7 +9,7 @@ class Demo5{
         Scanner scanner = new Scanner(System.in);
         boolean isAuthenticated = false;
 
-        // Use a while loop to authenticate the user
+       
         while (!isAuthenticated) {
             System.out.print("Enter username: ");
             String inputUsername = scanner.nextLine();
@@ -17,7 +17,7 @@ class Demo5{
             System.out.print("Enter password: ");
             String inputPassword = scanner.nextLine();
 
-            // Check if the input matches the valid credentials
+          
             if (inputUsername.equals(validUsername) && inputPassword.equals(validPassword)) {
                 System.out.println("Happy New Year 2025!");
                 isAuthenticated = true;
